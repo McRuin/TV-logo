@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>电视直播节目单</title>
+</head>
+<body>
+  <h1>电视直播节目单</h1>
+  <p>请输入频道名称和日期：</p>
+  <form action="/epg" method="get">
+    <input type="text" name="ch" placeholder="频道名称">
+    <input type="text" name="date" placeholder="日期">
+    <input type="submit" value="查询">
+  </form>
+  <div id="results"></div>
+</body>
+</html>
